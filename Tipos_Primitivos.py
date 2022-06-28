@@ -1,0 +1,10 @@
+#Tipos Primitivos
+digite = input('Digite algo no Teclado: ')
+print('O tipo Primitivo desse Valor é: ', type(digite))
+print('Só tem Espaço? :', digite.isspace())
+print('É um número? ', digite.isnumeric())
+print('É alfabético? ', digite.isalpha())
+print('É Alfanúmerico? ', digite.isalnum())
+print('Está em Maiscula? ', digite.isupper())
+print('Está em Minuscula? ', digite.islower())
+print('Esa Capitalizada? ', digite.istitle())
